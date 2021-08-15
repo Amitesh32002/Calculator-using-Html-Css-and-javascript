@@ -9,7 +9,9 @@ btns.forEach((btn) => {
     if (clickedBtn === "C") {
       history_value.innerText = " ";
       output.innerText = " ";
-    } else if (clickedBtn === "CE") {
+    }
+   
+   else if (clickedBtn === "CE") {
       var number = history_value.innerText;
       var numbertoString = number.toString();
       history_value.innerText = numbertoString.substr(
@@ -20,6 +22,7 @@ btns.forEach((btn) => {
       historyValueScreen(clickedBtn);
       if (clickedBtn === "=") {
         output.innerText = eval(history_value.innerText);
+        history_value.innerText = output.innerText;
       }
     }
   });
