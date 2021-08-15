@@ -4,21 +4,23 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: rgb(197, 185, 185);
 }
-/* #container{
-  
-    width: 1000px;
-    height: 550px;
-   margin: 50px auto;
-} */
+.container{
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: rgb(58, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #calculator {
   width: 300px;
   height: 500px;
   background-color: white;
-  margin: 30px auto;
   top: 15px;
-  position: relative;
   border-radius: 20px;
   border: 2px solid black;
+
 }
 #result {
   height: 120px;
