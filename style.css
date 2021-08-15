@@ -56,10 +56,10 @@ body {
   font-weight: 15px;
   border-width: 0;
 }
-.empty,
+/* .empty,
 .number {
   background-color: white;
-}
+} */
 .number,
 .operator {
   cursor: pointer;
